@@ -265,11 +265,12 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-axios@^0.15.3:
-  version "0.15.3"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.15.3.tgz#2c9d638b2e191a08ea1d6cc988eadd6ba5bdc053"
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
   dependencies:
-    follow-redirects "1.0.0"
+    follow-redirects "^1.14.0"
 
 babel-code-frame@^6.11.0, babel-code-frame@^6.16.0, babel-code-frame@^6.22.0:
   version "6.22.0"
@@ -2476,15 +2477,14 @@ flow-bin@*:
   version "0.49.1"
   resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.49.1.tgz#c9e456b3173a7535a4ffaf28956352c63bb8e3e9"
 
-follow-redirects@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.0.0.tgz#8e34298cbd2e176f254effec75a1c78cc849fd37"
-  dependencies:
-    debug "^2.2.0"
-
 follow-redirects@^1.0.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+
+follow-redirects@^1.14.0:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
+  integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -4211,10 +4211,11 @@ opentok-screen-sharing@^1.0.27:
     underscore "^1.8.3"
 
 opentok-solutions-logging@^1.0.10, opentok-solutions-logging@^1.0.6, opentok-solutions-logging@^1.0.7:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/opentok-solutions-logging/-/opentok-solutions-logging-1.0.10.tgz#9efe2b0cc086408946c5296214e2b3e57f83cdf6"
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/opentok-solutions-logging/-/opentok-solutions-logging-1.1.4.tgz#d966dd5d155f1332e752842429941bc7c1a0e07c"
+  integrity sha512-Ha2wpndW99+jjbAUjoE9O715a71qt8aZwnVkuwNZH1mlo8wpQVvSRDiITTI1raYKA7MJkzRgBBkQy9BSH/PsxA==
   dependencies:
-    axios "^0.15.3"
+    axios "^0.21.1"
 
 opentok-text-chat@^1.0.29:
   version "1.0.30"
